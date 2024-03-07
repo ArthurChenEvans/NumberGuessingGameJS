@@ -20,7 +20,6 @@ body {
     gap: 1.5em;
 }
 
-
 input {
     padding: 1.25em;
     background: var(--discord-grey);
@@ -36,4 +35,19 @@ button {
     font-size: 16px;
     letter-spacing: 0.25em;
     border: none;
+}
+
+button:hover {
+    animation: 1s smoothScale;
+    cursor: pointer;
+}
+
+button:active {
+    cursor: grabbing;
+}
+
+@keyframes smoothScale {
+    100% {
+        transform: scale(1.2);
+    }
 }
