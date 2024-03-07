@@ -38,7 +38,8 @@ button {
 }
 
 button:hover {
-    animation: 1s smoothScale;
+    animation: 0.5s smoothScale;
+    animation-fill-mode: forwards;
     cursor: pointer;
 }
 
