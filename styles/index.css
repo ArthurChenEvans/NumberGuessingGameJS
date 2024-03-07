@@ -1,0 +1,39 @@
+:root {
+    --discord-grey: #424549;
+}
+
+* {
+    box-sizing: border-box;
+    color: white;
+    font-family: Comfortaa;
+}
+
+body {
+    background-color: var(--discord-grey);
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+}
+
+
+input {
+    padding: 1.25em;
+    background: var(--discord-grey);
+    text-align: center;
+    border: white solid;
+}
+
+button {
+    color: var(--discord-grey);
+    background-color: white;
+    padding: 1.25em;
+    font-weight: bolder;
+    font-size: 16px;
+    letter-spacing: 0.25em;
+    border: none;
+}
