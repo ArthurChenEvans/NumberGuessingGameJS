@@ -1,6 +1,6 @@
 "use strict";
 
-const randomNumber = Math.round(Math.random(100));
+let randomNumber = Math.round(Math.random(100));
 let randomNumberDisplay = document.querySelector("h2");
 let userInput = document.querySelector("input");
 let message = document.querySelector("p");
